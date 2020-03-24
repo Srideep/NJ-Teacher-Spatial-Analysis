@@ -3,9 +3,8 @@ import googlemaps as maps
 
 towns_df = pd.read_csv('New Jersey Diners - Towns Profiles.csv', header=0)
 towns_df.drop(columns=['LONGITUDE', 'LATITUDE'])
-central_df_towns = towns_df[towns_df['REGION']=='CENTRAL']['TOWNS']
-central_df_zipcode = towns_df[towns_df['REGION']=='CENTRAL']['ZIPCODE']
-print(central_df_zipcode)
+
+
 
 def geocoder(zip):
   gmaps = maps.Client(key='AIzaSyA9jKRCNusg0gGVUS5LpauQicua0DDLDjg')
@@ -24,6 +23,12 @@ def longitude(zip):
 
   return lng
 
+# Central Region
+central_df_towns = towns_df[towns_df['REGION']=='CENTRAL']['TOWNS']
+central_df_zipcode = towns_df[towns_df['REGION']=='CENTRAL']['ZIPCODE']
+central_df = pd.DataFrame(data={'TOWNS':central_df_towns,'ZIPCODE':central_df_zipcode})
+central_lat = central_df['ZIPCODE'].apply(latitude)
+print(central_lat)
 
 n = 20  #chunk row size
 batch_df = [towns_df[i:i+n] for i in range(0,towns_df.shape[0],n)]
