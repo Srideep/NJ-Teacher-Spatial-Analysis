@@ -4,4 +4,5 @@ Configuration Managment:
   Virtualization type: hvm
   ENA Enabled: Yes
   Virtual CPUs(vCPU) : 1 (Intel AVX†, Intel Turbo†, 3.3 GHz
+  Username: ec2-user, ansadmin
   
