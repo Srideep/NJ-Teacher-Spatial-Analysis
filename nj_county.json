@@ -197,11 +197,15 @@
       ]
     ],
     "type": "Polygon",
-    "CENSUSAREA": 233.009,
-    "COUNTY": "003",
-    "LSAD": "County",
+    "AREA LAND": 233.009,
+    "AREA WATER": 13.662,
+    "TOTAL AREA": 246.671,
+    "POPULATION": 936692,
+    "POPULATION DENSITY": 3700,
+    "COUNTY ID": 003,
+    "REGION": "NORTHEASTERN",
     "NAME": "Bergen",
-    "STATE": "34"
+    "COUNTY SEAT": "Hackensack"
   },
   {
     "coordinates": [
@@ -357,11 +361,15 @@
       ]
     ],
     "type": "Polygon",
-    "CENSUSAREA": 46.191,
-    "COUNTY": "017",
-    "LSAD": "County",
+    "AREA LAND": 46.19,
+    "AREA WATER": 16.12,
+    "TOTAL AREA": 62.31,
+    "POPULATION": 676061,
+    "POPULATION DENSITY": 14415,
+    "COUNTY ID": 017,
+    "REGION": "NORTHEASTERN",
     "NAME": "Hudson",
-    "STATE": "34"
+    "COUNTY SEAT": "Jersey City"
   },
   {
     "coordinates": [
@@ -541,11 +549,15 @@
       ]
     ],
     "type": "Polygon",
-    "CENSUSAREA": 628.781,
-    "COUNTY": "029",
-    "LSAD": "County",
+    "AREA LAND": 628.78,
+    "AREA WATER": 286.62,
+    "TOTAL AREA": 915.4,
+    "POPULATION": 601651,
+    "POPULATION DENSITY": 630,
+    "COUNTY": 02,
+    "REGION": "COASTAL",
     "NAME": "Ocean",
-    "STATE": "34"
+    "COUNTY SEAT": "Toms River"
   },
   {
     "coordinates": [
@@ -737,11 +749,15 @@
       ]
     ],
     "type": "Polygon",
-    "CENSUSAREA": 301.813,
+    "AREA LAND": 301.81,
+    "AREA WATER": 3.04,
+    "TOTAL AREA": 304.86,
+    "POPULATION": 331164,
+    "POPULATION DENSITY": 1100,
     "COUNTY": "035",
-    "LSAD": "County",
+    "REGION": "CENTRAL",
     "NAME": "Somerset",
-    "STATE": "34"
+    "COUNTY SEAT": "Somerville"
   },
   {
     "coordinates": [
