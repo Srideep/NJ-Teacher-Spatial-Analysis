@@ -1,4 +1,4 @@
-# NJ Teacher Graph DB Builder
+# NJ Teachers Graph DataBase 
 This repo will be used to do CRUD operations on building a graph database for NJ Teachers and their info using Neo4j database hosted in cloud. 
 - CSV files containing County, Town and Teacher information is used to load , clean and insert/update in the database.
 - Geocoding Information where needed is generated using Mapbox Geocoder API and the updated in the database.
